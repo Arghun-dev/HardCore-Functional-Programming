@@ -2,7 +2,7 @@
 
 **Every Function is a single valued collection of pairs**
 
-## Functions (Same Input Same Output)
+## Functions (Same Input Same Output => Pure Functions)
 
 1. Total => For every input there is a corresponding output
 2. Deterministic => Always receive the same output for a given input
