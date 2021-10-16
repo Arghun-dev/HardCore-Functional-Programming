@@ -25,3 +25,19 @@ const headerText = header_selector => querySelector(header_selector).text();
 4. Testable
 5. Composable
 6. Properties/Contract
+
+## Properties, Arguments & Currying
+
+**Properties**
+
+let's see `add` and `multiply` you know they hold properties:
+
+// associative
+```js
+add(add(x, y), z) === add(x, add(y, z));
+```
+
+// commutative => we can switch the arguments
+```js
+add(x, y) === add(y, x);
+```
