@@ -55,3 +55,7 @@ const increment = curriedAdd(1);
 
 const result = increment(2);
 ```
+
+So what curryied did was allow me to give Add. But I can give it a function or an argument and it remembers it.
+
+So then it's just waiting for it's `y`, it remembers it's `x`
