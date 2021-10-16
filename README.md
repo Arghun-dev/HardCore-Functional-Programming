@@ -16,3 +16,12 @@ const headerText = header_selector => querySelector(header_selector).text();
 ```
 
 **actually this is not a function, because this function is going to go out into the world, and try to find a text, and the text could change any time, so it's not giving me the same output, if I give it the same input**
+
+## Pure Functions Advantages
+
+1. Reliable => returns same output for the same input
+2. Portable => They're not stuck in their environment
+3. Reusable
+4. Testable
+5. Composable
+6. Properties/Contract
